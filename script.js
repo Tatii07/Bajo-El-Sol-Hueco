@@ -1,5 +1,3 @@
-// script.js - Solo motor y lógica del juego
-
 const textoPantalla = document.querySelector('#texto-historia');
 const contenedorBotones = document.querySelector('.opciones-container');
 
@@ -37,5 +35,4 @@ function cargarEscena(nombreEscena) {
     });
 }
 
-// Arrancar el juego
 cargarEscena("menu");
