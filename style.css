@@ -4,12 +4,14 @@ body {
 }
 
 #game-container {
-    max-width: 400px;
-    margin: 40px auto;
+    width: 90%;     
+    max-width: 600px;      
+    margin: 20px auto;     
     padding: 20px;
-    border: 2px solid #374151;
     background-color: #111827;
+    border: 2px solid #374151;
     border-radius: 8px;
+    font-size: 18px;       
 }
 
 #menu-inicio {
@@ -48,4 +50,9 @@ body {
 .boton-opcion {
     padding: 8px 16px;
     cursor: pointer;
+}
+
+#version {
+    text-align: center;
+    text-size: 5px;
 }
