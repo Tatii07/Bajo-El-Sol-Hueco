@@ -11,13 +11,23 @@
     <div id="game-container">
         <div id="menu-inicio">===== Bajo El Sol Hueco =====</div>
         <p class="subtitulo">Una Historia de Penumbra</p>
-        <p id="version">Version De Prueba 0.3</p>
+        <p id="version">Versión De Prueba 0.3</p>
         
         <div id="texto-historia">Cargando...</div>
         <div class="opciones-container"></div>
     </div>
 
-    <script src="historias.js"></script>
+    <!-- 1. OBLIGATORIO: Crear la variable global PRIMERO -->
+    <script src="escenas.js"></script>
+
+    <!-- 2. Luego cargas las historias (pueden ir en cualquier orden entre ellas) -->
+    <script src="menu.js"></script>
+    <script src="Capitulo1_hacha.js"></script>
+    <script src="Capitulo1_espada.js"></script>
+    <script src="finales.js"></script>
+    <script src="muertes.js"></script>
+    <!-- 3. Al final de todo, tu motor del juego -->
     <script src="script.js"></script>
+    <script src="DevTools.js"</script>
 </body>
 </html>
