@@ -23,7 +23,7 @@ function cargarEscena(nombreEscena) {
     if (nombreEscena === "logros") {
                 escenaActual.texto = "--- TROFEOS DE SANGRE ---\n\n" +
             (logros.MuerteInutil ? "🏆 Muerte Inútil (Desbloqueado)" : "🔒 Muerte Inútil (Bloqueado)") + "\n" +
-            (logros.cazador ? "🏆 Cazador (Desbloqueado)" : "🔒 Cazador (Bloqueado)") + "\n" +
+            (logros.Demo ? "🏆 DemoCompletada (Desbloqueado)" : "🔒 DemoCompletada (Bloqueado)") + "\n" +
             (logros.Indeciso ? "🏆 Indeciso (Desbloqueado)" : "🔒 Indeciso (Bloqueado)") + "\n" +
             (logros.MuerteHelada ? "🏆 MuerteHelada (Desbloqueado)" : "🔒 MuerteHelada(Bloqueado)");
     }

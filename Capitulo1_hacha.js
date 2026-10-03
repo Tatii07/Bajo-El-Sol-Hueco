@@ -22,14 +22,14 @@ Object.assign(window.escenas, {
         ]
     },
     ramahachaA2: {
-        texto: "Logras defenderte con tu hacha a medias evitando una herida mortal...",
+        texto: "Logras defenderte con tu hacha a medias evitando una herida mortal mas tu brazo quedó cercenado, logras herirlo levemente.",
         opciones: [
             { texto: "Huir ahora que está herido", destino: "ramahachaA2_1" },
             { texto: "Atacarlo", destino: "ramahachaA2_2" }
         ]
     },
     ramahachaA2_1: {
-        texto: "Aprovechas que lo heriste levemente para huir...",
+        texto: "Aprovechas que lo heriste levemente para huir; a pesar de ello, la sangre no deja de salir a grandes cantidades.",
         opciones: [
             { texto: "Descansar y buscar cómo evitar el desangrado", destino: "final_verdadero" },
             { texto: "Regresar a tu base", destino: "final_falso" }
