@@ -25,7 +25,7 @@ body {
     max-width: 600px;
     padding: 35px 30px;
     background: linear-gradient(160deg, #0f172a 0%, #090d16 100%);
-    /* Borde con aspecto metálico/místico */
+    /* Borde con aspecto metálico/místico
     border: 1px solid #38bdf844;
     border-radius: 12px;
     /* Doble sombra: una profunda para separación y una tenue cian para ambiente */
