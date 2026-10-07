@@ -9,7 +9,7 @@ Object.assign(window.escenas, {
         ]
     },
     ramahachaA: {
-        texto: "Te acercas sigilosamente al conejo pero logra huir...",
+        texto: "Te adentras en el bosque y encuentras un conejo, logras acércate pero oyes un crujido tras de ti",
         opciones: [
             { texto: "Correr sin mirar atrás", destino: "ramahachaA1" },
             { texto: "Voltear", destino: "ramahachaA2" }

@@ -1,5 +1,7 @@
 window.escenas = window.escenas || {};
 
+
+
 window.escenas.menu = {
     texto: "Bienvenido a las tierras heladas.",
     opciones: [
